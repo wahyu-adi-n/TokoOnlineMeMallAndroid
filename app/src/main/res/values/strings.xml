@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MeMall</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Keranjang</string>
+    <string name="title_notifications">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
