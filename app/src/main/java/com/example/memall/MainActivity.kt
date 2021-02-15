@@ -2,6 +2,7 @@ package com.example.memall
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun panggilFragment(int:Int, fragment:Fragment) {
+        Log.d("Response", "Home")
         menuItem = menu.getItem(int) //default menu seperti array, dimulai dari 0
         menuItem.isChecked =  true
         fm.beginTransaction().hide(active).show(fragment).commit()
